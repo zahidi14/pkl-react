@@ -1,0 +1,46 @@
+
+.bookingFlow {
+    border-top: solid #e2e2e2;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        padding-left: 0px;
+        li {
+            list-style: none;
+            width: auto;
+            float: left;
+            border-bottom: solid #e2e2e2;
+            border-left: solid #e2e2e2;
+            padding: 20px;
+            background: #f1f1f1;
+        }
+        .active {
+            background: #434a55 !important;
+            div{
+                h3 {
+                    color: #f0f0f0;
+                }
+            }
+        }
+        div{
+            h3 {
+                float: left;
+                margin-left: 20px;
+            }
+        }
+    }
+    .circle {
+        background-color: #fff;
+        border: 2px solid gray;
+        height: 65px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 65px;
+        float: left;
+    }
+}
+
